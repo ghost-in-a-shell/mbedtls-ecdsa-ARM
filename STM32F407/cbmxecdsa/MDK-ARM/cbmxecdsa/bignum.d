@@ -1,0 +1,14 @@
+cbmxecdsa\bignum.o: ../Middlewares/Third_Party/mbedTLS/library/bignum.c
+cbmxecdsa\bignum.o: ../MBEDTLS/App/mbedtls_config.h
+cbmxecdsa\bignum.o: ../Middlewares/Third_Party/mbedTLS/include/mbedtls/check_config.h
+cbmxecdsa\bignum.o: E:\keil515\ARM\ARMCC\Bin\..\include\limits.h
+cbmxecdsa\bignum.o: ../Middlewares/Third_Party/mbedTLS/include/mbedtls/bignum.h
+cbmxecdsa\bignum.o: E:\keil515\ARM\ARMCC\Bin\..\include\stddef.h
+cbmxecdsa\bignum.o: E:\keil515\ARM\ARMCC\Bin\..\include\stdint.h
+cbmxecdsa\bignum.o: ../Middlewares/Third_Party/mbedTLS/include/mbedtls/bn_mul.h
+cbmxecdsa\bignum.o: ../Middlewares/Third_Party/mbedTLS/include/mbedtls/platform_util.h
+cbmxecdsa\bignum.o: E:\keil515\ARM\ARMCC\Bin\..\include\string.h
+cbmxecdsa\bignum.o: ../Middlewares/Third_Party/mbedTLS/include/mbedtls/platform.h
+cbmxecdsa\bignum.o: E:\keil515\ARM\ARMCC\Bin\..\include\stdio.h
+cbmxecdsa\bignum.o: E:\keil515\ARM\ARMCC\Bin\..\include\stdlib.h
+cbmxecdsa\bignum.o: E:\keil515\ARM\ARMCC\Bin\..\include\time.h

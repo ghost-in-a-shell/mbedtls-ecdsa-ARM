@@ -1,0 +1,63 @@
+<html>
+<body>
+<pre>
+<h1>µVision Build Log</h1>
+<h2>Tool Versions:</h2>
+IDE-Version: ¦ÌVision V5.15
+Copyright (C) 2015 ARM Ltd and ARM Germany GmbH. All rights reserved.
+License Information: wyx0926,  , LIC=IK1BF-6WV2L-2Z6W4-FHP8A-Z0PQ2-9LNL5
+ 
+Tool Versions:
+Toolchain:       MDK-ARM Standard  Version: 5.15.0
+Toolchain Path:  E:\keil515\ARM\ARMCC\Bin
+C Compiler:      Armcc.exe V5.05 update 2 (build 169)
+Assembler:       Armasm.exe V5.05 update 2 (build 169)
+Linker/Locator:  ArmLink.exe V5.05 update 2 (build 169)
+Library Manager: ArmAr.exe V5.05 update 2 (build 169)
+Hex Converter:   FromElf.exe V5.05 update 2 (build 169)
+CPU DLL:         SARMCM3.DLL V5.15.0
+Dialog DLL:      DCM.DLL V1.13.2.0
+Target DLL:      CMSIS_AGDI.dll V1.21.12.0
+Dialog DLL:      TCM.DLL V1.14.5.0
+ 
+<h2>Project:</h2>
+E:\stm32f407_project\cbmxecdsa\MDK-ARM\cbmxecdsa.uvprojx
+Project File Date:  06/30/2023
+
+<h2>Output:</h2>
+*** Using Compiler 'V5.05 update 2 (build 169)', folder: 'E:\keil515\ARM\ARMCC\Bin'
+Build target 'cbmxecdsa'
+compiling main.c...
+../Core/Src/main.c(75): warning:  #223-D: function "printf" declared implicitly
+          printf("%s%02X%s", i % 16 == 0 ? "\r\n\t" : " ", 
+../Core/Src/main.c(136): warning:  #223-D: function "printf" declared implicitly
+  printf("\nprogram start\n");
+../Core/Src/main.c(180): warning:  #223-D: function "strlen" declared implicitly
+                                 strlen(pers));
+../Core/Src/main.c(295): warning:  #128-D: loop is not reachable
+    while (1)
+../Core/Src/main.c: 4 warnings, 0 errors
+linking...
+Program Size: Code=45044 RO-data=10968 RW-data=36 ZI-data=26292  
+FromELF: creating hex file...
+"cbmxecdsa\cbmxecdsa.axf" - 0 Error(s), 4 Warning(s).
+
+<h2>Software Packages used:</h2>
+
+Package Vendor: ARM
+                http://www.keil.com/pack/ARM.CMSIS.4.3.0.pack
+                ARM::CMSIS:CORE:4.1.0
+                CMSIS (Cortex Microcontroller Software Interface Standard)
+   * Component: CORE Version: 4.1.0
+
+<h2>Collection of Component include folders:</h2>
+  E:\stm32f407_project\cbmxecdsa\MDK-ARM\RTE
+  E:\keil515\ARM\PACK\ARM\CMSIS\4.3.0\CMSIS\Include
+  E:\keil515\ARM\PACK\Keil\STM32F4xx_DFP\2.5.0\Drivers\CMSIS\Device\ST\STM32F4xx\Include
+
+<h2>Collection of Component Files used:</h2>
+
+   * Component: ARM::CMSIS:CORE:4.1.0
+</pre>
+</body>
+</html>

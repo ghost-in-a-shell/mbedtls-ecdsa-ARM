@@ -1,0 +1,9 @@
+cbmxecdsa\hkdf.o: ../Middlewares/Third_Party/mbedTLS/library/hkdf.c
+cbmxecdsa\hkdf.o: ../MBEDTLS/App/mbedtls_config.h
+cbmxecdsa\hkdf.o: ../Middlewares/Third_Party/mbedTLS/include/mbedtls/check_config.h
+cbmxecdsa\hkdf.o: E:\keil515\ARM\ARMCC\Bin\..\include\limits.h
+cbmxecdsa\hkdf.o: E:\keil515\ARM\ARMCC\Bin\..\include\string.h
+cbmxecdsa\hkdf.o: ../Middlewares/Third_Party/mbedTLS/include/mbedtls/hkdf.h
+cbmxecdsa\hkdf.o: ../Middlewares/Third_Party/mbedTLS/include/mbedtls/md.h
+cbmxecdsa\hkdf.o: E:\keil515\ARM\ARMCC\Bin\..\include\stddef.h
+cbmxecdsa\hkdf.o: ../Middlewares/Third_Party/mbedTLS/include/mbedtls/platform_util.h

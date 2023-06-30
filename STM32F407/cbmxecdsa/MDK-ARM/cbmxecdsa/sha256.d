@@ -1,0 +1,9 @@
+cbmxecdsa\sha256.o: ../Middlewares/Third_Party/mbedTLS/library/sha256.c
+cbmxecdsa\sha256.o: ../MBEDTLS/App/mbedtls_config.h
+cbmxecdsa\sha256.o: ../Middlewares/Third_Party/mbedTLS/include/mbedtls/check_config.h
+cbmxecdsa\sha256.o: E:\keil515\ARM\ARMCC\Bin\..\include\limits.h
+cbmxecdsa\sha256.o: ../Middlewares/Third_Party/mbedTLS/include/mbedtls/sha256.h
+cbmxecdsa\sha256.o: E:\keil515\ARM\ARMCC\Bin\..\include\stddef.h
+cbmxecdsa\sha256.o: E:\keil515\ARM\ARMCC\Bin\..\include\stdint.h
+cbmxecdsa\sha256.o: ../Middlewares/Third_Party/mbedTLS/include/mbedtls/platform_util.h
+cbmxecdsa\sha256.o: E:\keil515\ARM\ARMCC\Bin\..\include\string.h

@@ -1,0 +1,9 @@
+cbmxecdsa\sha512.o: ../Middlewares/Third_Party/mbedTLS/library/sha512.c
+cbmxecdsa\sha512.o: ../MBEDTLS/App/mbedtls_config.h
+cbmxecdsa\sha512.o: ../Middlewares/Third_Party/mbedTLS/include/mbedtls/check_config.h
+cbmxecdsa\sha512.o: E:\keil515\ARM\ARMCC\Bin\..\include\limits.h
+cbmxecdsa\sha512.o: ../Middlewares/Third_Party/mbedTLS/include/mbedtls/sha512.h
+cbmxecdsa\sha512.o: E:\keil515\ARM\ARMCC\Bin\..\include\stddef.h
+cbmxecdsa\sha512.o: E:\keil515\ARM\ARMCC\Bin\..\include\stdint.h
+cbmxecdsa\sha512.o: ../Middlewares/Third_Party/mbedTLS/include/mbedtls/platform_util.h
+cbmxecdsa\sha512.o: E:\keil515\ARM\ARMCC\Bin\..\include\string.h
